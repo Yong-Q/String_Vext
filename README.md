@@ -41,7 +41,8 @@ every requested center and orientation.
 Requirements: Linux, Python >=3.9, NumPy, SciPy, a C++17 compiler for CPU
 Vext, and an NVIDIA CUDA toolkit with **cuFFT** for GPU String. The included
 String binary was built for RTX 4090 (`sm_89`) using GCC 13.1 and NVCC 13.3;
-rebuild it for other GPU architectures. The prebuilt Vext shared library is
+it requires glibc >=2.38. Rebuild it for older Linux systems or other GPU
+architectures. The prebuilt Vext shared library is
 included, but rebuilding is recommended on a new platform.
 
 ```bash

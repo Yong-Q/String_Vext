@@ -1,0 +1,39 @@
+name: Publish release
+
+on:
+  push:
+    tags:
+      - "v*"
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.9"
+      - name: Build and verify wheel
+        run: |
+          python -m pip install --upgrade pip setuptools wheel numpy scipy
+          python -m pip install --no-deps -e .
+          python -m unittest discover -s tests/unit -v
+          mkdir -p dist
+          python -m pip wheel --no-deps --no-build-isolation -w dist .
+      - name: Archive tagged source and calculate checksums
+        run: |
+          git archive --format=tar.gz --prefix="String_Vext-${GITHUB_REF_NAME}/" \
+            --output="dist/String_Vext-${GITHUB_REF_NAME}-source.tar.gz" "$GITHUB_SHA"
+          cd dist
+          sha256sum *.whl *.tar.gz > SHA256SUMS
+      - name: Publish GitHub Release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh release create "$GITHUB_REF_NAME" dist/*.whl \
+            dist/*.tar.gz dist/SHA256SUMS \
+            --verify-tag --title "String_Vext $GITHUB_REF_NAME" \
+            --notes-file RELEASE_NOTES.md
