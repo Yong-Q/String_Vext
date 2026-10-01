@@ -1,0 +1,79 @@
+{
+  "passed": true,
+  "materials": 2,
+  "cases": [
+    {
+      "name": "bne+C56+C32+L14_COOH",
+      "order": [
+        "direct",
+        "exact"
+      ],
+      "seconds": {
+        "direct": 564.2363147839787,
+        "exact": 22.26321976201143
+      },
+      "speedup": 25.343877517067696,
+      "comparisons": {
+        "C2H4": {
+          "accessible_poses": 12744864,
+          "orientation_max_abs_error_K": 2.3283064365386963e-10,
+          "marginal_max_abs_error_K": 0.0,
+          "site_max_abs_error_K": 0.0
+        },
+        "C2H6": {
+          "accessible_poses": 12698919,
+          "orientation_max_abs_error_K": 0.0,
+          "marginal_max_abs_error_K": 0.0,
+          "site_max_abs_error_K": 0.0
+        }
+      }
+    },
+    {
+      "name": "bne+C62+C32+L14_COOH",
+      "order": [
+        "exact",
+        "direct"
+      ],
+      "seconds": {
+        "exact": 22.451186311023775,
+        "direct": 518.7607436580001
+      },
+      "speedup": 23.10616180683882,
+      "comparisons": {
+        "C2H4": {
+          "accessible_poses": 12769253,
+          "orientation_max_abs_error_K": 0.0,
+          "marginal_max_abs_error_K": 0.0,
+          "site_max_abs_error_K": 0.0
+        },
+        "C2H6": {
+          "accessible_poses": 12725015,
+          "orientation_max_abs_error_K": 1.52587890625e-05,
+          "marginal_max_abs_error_K": 0.0,
+          "site_max_abs_error_K": 0.0
+        }
+      }
+    }
+  ],
+  "source_manifest_sha256": "cb6a71e7158b329de232a900ebe6a21bd609f8f5828a5c3ee93a70f01811ab96",
+  "direct_code_hashes": {
+    "cof8948_oldff_vext.py": "4e0967a305c600f8351a44387974b48fcda0c8c1a783e566d26013fcfb5eff91",
+    "cof8948_oldff_prepare.py": "4abab3a3b35527a5f7296f064c7fffc52f22ffa0446ad05957d2f28633ab13a0",
+    "string_ff_vext.py": "573f937fac33a6df08723c22d6a428f4ef48535bfee7d6d380d32ab86a756bd1",
+    "rebuild_legacy_string_ff_vext.py": "198396d5f377e806e33e5ecd170777fb554d08e856b89c5b9dc9ef9f00b0d445",
+    "orientation_oracle_fields.py": "d232fc730d158cb47343a8f5bcdfddb4ae8a41e83154e8f17ad0ef7d5a1726f5"
+  },
+  "exact_code_hashes": {
+    "cof8948_oldff_vext_exact.py": "8ed2d2561bf3536031723dcc65c9a4f3b924abced6e099ed157c3e7dfd2b7f83",
+    "exact_neighbor_reuse_probe.py": "c3ac0117ec8a5ba9f1f5847d886f633d30fe84e76aa46e3b751b316db49fccb7",
+    "exact_neighbor_reuse_native.py": "1208eec71d381f3c58f97ac7b5b29f1ac4d1eca7b094d673f3905005a843e283",
+    "cof8948_oldff_vext.py": "4e0967a305c600f8351a44387974b48fcda0c8c1a783e566d26013fcfb5eff91",
+    "cof8948_oldff_prepare.py": "4abab3a3b35527a5f7296f064c7fffc52f22ffa0446ad05957d2f28633ab13a0",
+    "string_ff_vext.py": "573f937fac33a6df08723c22d6a428f4ef48535bfee7d6d380d32ab86a756bd1",
+    "orientation_oracle_fields.py": "d232fc730d158cb47343a8f5bcdfddb4ae8a41e83154e8f17ad0ef7d5a1726f5",
+    "rebuild_legacy_string_ff_vext.py": "198396d5f377e806e33e5ecd170777fb554d08e856b89c5b9dc9ef9f00b0d445",
+    "native/vext_exact_reuse_v1/kernel.cpp": "1d1ea1a5ff9311b268901e7b07cc8a371e7dd47117138315e3d640c81f14e83b",
+    "native/vext_exact_reuse_v1/kernel.so": "c6784f97e1fd0954aa2eb2785961f79820c3c24ebbb29f49a2b3744aaf609691"
+  },
+  "note": "single-process full input-to-NPZ timing, alternating order; no multi-worker filesystem contention"
+}

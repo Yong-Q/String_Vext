@@ -1,0 +1,44 @@
+{
+  "material": "bne+C56+C32+L14_COOH",
+  "shard": "shard0",
+  "positions": 216000,
+  "orientations": 64,
+  "cases": {
+    "C2H4": {
+      "framework_atoms": 1568,
+      "setup_seconds": 0.06473016599193215,
+      "evaluation_seconds": 6.702403370989487,
+      "parent_neighbor_queries": 216000,
+      "max_parent_neighbors": 168,
+      "neighbor_query_seconds": 1.785822180681862,
+      "native_compute_seconds": 4.8963443079264835,
+      "accessible_poses": 12744864,
+      "accessible_max_abs_error_K": 0.00012190951974844211,
+      "accessible_p99_abs_error_K": 2.854165125654615e-05,
+      "accessible_mae_K": 1.713505010883412e-06,
+      "accessible_marginal_centers": 200862,
+      "marginal_max_abs_error_K": 0.00011411861896704067,
+      "marginal_p99_abs_error_K": 2.8933561004578193e-05,
+      "passed": true
+    },
+    "C2H6": {
+      "framework_atoms": 1568,
+      "setup_seconds": 0.06003833195427433,
+      "evaluation_seconds": 6.941789443953894,
+      "parent_neighbor_queries": 216000,
+      "max_parent_neighbors": 170,
+      "neighbor_query_seconds": 1.8199476857553236,
+      "native_compute_seconds": 5.102714363136329,
+      "accessible_poses": 12698919,
+      "accessible_max_abs_error_K": 0.00012204131735416013,
+      "accessible_p99_abs_error_K": 2.9605363720293147e-05,
+      "accessible_mae_K": 1.8552933610152796e-06,
+      "accessible_marginal_centers": 200622,
+      "marginal_max_abs_error_K": 0.00012042151911373367,
+      "marginal_p99_abs_error_K": 3.0266906859424155e-05,
+      "passed": true
+    }
+  },
+  "probe_only": true,
+  "passed": true
+}

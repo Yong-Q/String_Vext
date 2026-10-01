@@ -1,0 +1,25 @@
+{
+  "cached": 0,
+  "created": 53688,
+  "guest_recipe": {
+    "C2H4": {
+      "bond": 1.33,
+      "epsilon": 92.8,
+      "mass": 28.0,
+      "sigma": 3.68,
+      "site_mass": 14.0
+    },
+    "C2H6": {
+      "bond": 1.54,
+      "epsilon": 108.0,
+      "mass": 30.0,
+      "sigma": 3.76,
+      "site_mass": 15.0
+    }
+  },
+  "inputs": 53688,
+  "materials": 8948,
+  "passed": true,
+  "policy": "verified source/new SHA; atomic exclusive publish; originals unchanged",
+  "task_csv_sha256": "cb6a71e7158b329de232a900ebe6a21bd609f8f5828a5c3ee93a70f01811ab96"
+}

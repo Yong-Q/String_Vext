@@ -1,0 +1,12 @@
+{
+  "executable": "native/string_legacy8238_v4/GPU_string_legacy8238_v4",
+  "exe_sha256": "3ca7e5387e1c2444993de0b9e17b53c5ea40e3c623aa70469288d13f10610c53",
+  "source_manifest": "native/string_legacy8238_v4/build_81610/source_before.sha256",
+  "build_logs": "native/string_legacy8238_v4/build_81610",
+  "runtime_modules": [
+    "gcc/13.1.0",
+    "cuda/11.8"
+  ],
+  "cuda_version": "nvcc: NVIDIA (R) Cuda compiler driver\nCopyright (c) 2005-2026 NVIDIA Corporation\nBuilt on Tue_Jun_09_02:43:40_PM_PDT_2026\nCuda compilation tools, release 13.3, V13.3.73\nBuild cuda_13.3.r13.3/compiler.38244171_0\n",
+  "validation": "host_tests_and_noargs_only_not_optimizer_certificate"
+}

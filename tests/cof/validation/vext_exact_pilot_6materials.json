@@ -1,0 +1,355 @@
+{
+  "code_hashes": {
+    "cof8948_oldff_prepare.py": "4abab3a3b35527a5f7296f064c7fffc52f22ffa0446ad05957d2f28633ab13a0",
+    "cof8948_oldff_vext.py": "4e0967a305c600f8351a44387974b48fcda0c8c1a783e566d26013fcfb5eff91",
+    "cof8948_oldff_vext_exact.py": "8ed2d2561bf3536031723dcc65c9a4f3b924abced6e099ed157c3e7dfd2b7f83",
+    "exact_neighbor_reuse_native.py": "1208eec71d381f3c58f97ac7b5b29f1ac4d1eca7b094d673f3905005a843e283",
+    "exact_neighbor_reuse_probe.py": "c3ac0117ec8a5ba9f1f5847d886f633d30fe84e76aa46e3b751b316db49fccb7",
+    "native/vext_exact_reuse_v1/kernel.cpp": "1d1ea1a5ff9311b268901e7b07cc8a371e7dd47117138315e3d640c81f14e83b",
+    "native/vext_exact_reuse_v1/kernel.so": "c6784f97e1fd0954aa2eb2785961f79820c3c24ebbb29f49a2b3744aaf609691",
+    "orientation_oracle_fields.py": "d232fc730d158cb47343a8f5bcdfddb4ae8a41e83154e8f17ad0ef7d5a1726f5",
+    "rebuild_legacy_string_ff_vext.py": "198396d5f377e806e33e5ecd170777fb554d08e856b89c5b9dc9ef9f00b0d445",
+    "string_ff_vext.py": "573f937fac33a6df08723c22d6a428f4ef48535bfee7d6d380d32ab86a756bd1"
+  },
+  "comparisons": [
+    {
+      "checks": {
+        "axes": {
+          "max_absolute": 0.0,
+          "max_relative_floor1": 0.0
+        },
+        "grid": {
+          "max_absolute": 0.0,
+          "max_relative_floor1": 0.0
+        },
+        "marginal_K": {
+          "max_absolute": 0.0,
+          "max_relative_floor1": 0.0
+        },
+        "orientation_K": {
+          "max_absolute": 0.0,
+          "max_relative_floor1": 0.0
+        },
+        "site_K": {
+          "max_absolute": 0.0,
+          "max_relative_floor1": 0.0
+        }
+      },
+      "framework_atoms": 152,
+      "gas": "C2H4",
+      "name": "bne+C17+C37+L23_CN"
+    },
+    {
+      "checks": {
+        "axes": {
+          "max_absolute": 0.0,
+          "max_relative_floor1": 0.0
+        },
+        "grid": {
+          "max_absolute": 0.0,
+          "max_relative_floor1": 0.0
+        },
+        "marginal_K": {
+          "max_absolute": 0.0,
+          "max_relative_floor1": 0.0
+        },
+        "orientation_K": {
+          "max_absolute": 0.0,
+          "max_relative_floor1": 0.0
+        },
+        "site_K": {
+          "max_absolute": 0.0,
+          "max_relative_floor1": 0.0
+        }
+      },
+      "framework_atoms": 152,
+      "gas": "C2H6",
+      "name": "bne+C17+C37+L23_CN"
+    },
+    {
+      "checks": {
+        "axes": {
+          "max_absolute": 0.0,
+          "max_relative_floor1": 0.0
+        },
+        "grid": {
+          "max_absolute": 0.0,
+          "max_relative_floor1": 0.0
+        },
+        "marginal_K": {
+          "max_absolute": 0.0,
+          "max_relative_floor1": 0.0
+        },
+        "orientation_K": {
+          "max_absolute": 0.0,
+          "max_relative_floor1": 0.0
+        },
+        "site_K": {
+          "max_absolute": 0.0,
+          "max_relative_floor1": 0.0
+        }
+      },
+      "framework_atoms": 420,
+      "gas": "C2H4",
+      "name": "bne+C17+C32+L31_COOH"
+    },
+    {
+      "checks": {
+        "axes": {
+          "max_absolute": 0.0,
+          "max_relative_floor1": 0.0
+        },
+        "grid": {
+          "max_absolute": 0.0,
+          "max_relative_floor1": 0.0
+        },
+        "marginal_K": {
+          "max_absolute": 0.0,
+          "max_relative_floor1": 0.0
+        },
+        "orientation_K": {
+          "max_absolute": 0.0,
+          "max_relative_floor1": 0.0
+        },
+        "site_K": {
+          "max_absolute": 0.0,
+          "max_relative_floor1": 0.0
+        }
+      },
+      "framework_atoms": 420,
+      "gas": "C2H6",
+      "name": "bne+C17+C32+L31_COOH"
+    },
+    {
+      "checks": {
+        "axes": {
+          "max_absolute": 0.0,
+          "max_relative_floor1": 0.0
+        },
+        "grid": {
+          "max_absolute": 0.0,
+          "max_relative_floor1": 0.0
+        },
+        "marginal_K": {
+          "max_absolute": 0.0,
+          "max_relative_floor1": 0.0
+        },
+        "orientation_K": {
+          "max_absolute": 0.0,
+          "max_relative_floor1": 0.0
+        },
+        "site_K": {
+          "max_absolute": 0.0,
+          "max_relative_floor1": 0.0
+        }
+      },
+      "framework_atoms": 540,
+      "gas": "C2H4",
+      "name": "bne+C17+C32+L44"
+    },
+    {
+      "checks": {
+        "axes": {
+          "max_absolute": 0.0,
+          "max_relative_floor1": 0.0
+        },
+        "grid": {
+          "max_absolute": 0.0,
+          "max_relative_floor1": 0.0
+        },
+        "marginal_K": {
+          "max_absolute": 0.0,
+          "max_relative_floor1": 0.0
+        },
+        "orientation_K": {
+          "max_absolute": 0.0,
+          "max_relative_floor1": 0.0
+        },
+        "site_K": {
+          "max_absolute": 0.0,
+          "max_relative_floor1": 0.0
+        }
+      },
+      "framework_atoms": 540,
+      "gas": "C2H6",
+      "name": "bne+C17+C32+L44"
+    },
+    {
+      "checks": {
+        "axes": {
+          "max_absolute": 0.0,
+          "max_relative_floor1": 0.0
+        },
+        "grid": {
+          "max_absolute": 0.0,
+          "max_relative_floor1": 0.0
+        },
+        "marginal_K": {
+          "max_absolute": 0.0,
+          "max_relative_floor1": 0.0
+        },
+        "orientation_K": {
+          "max_absolute": 0.0,
+          "max_relative_floor1": 0.0
+        },
+        "site_K": {
+          "max_absolute": 0.0,
+          "max_relative_floor1": 0.0
+        }
+      },
+      "framework_atoms": 832,
+      "gas": "C2H4",
+      "name": "bne+C17+C37+L15_SH"
+    },
+    {
+      "checks": {
+        "axes": {
+          "max_absolute": 0.0,
+          "max_relative_floor1": 0.0
+        },
+        "grid": {
+          "max_absolute": 0.0,
+          "max_relative_floor1": 0.0
+        },
+        "marginal_K": {
+          "max_absolute": 0.0,
+          "max_relative_floor1": 0.0
+        },
+        "orientation_K": {
+          "max_absolute": 0.0,
+          "max_relative_floor1": 0.0
+        },
+        "site_K": {
+          "max_absolute": 0.0,
+          "max_relative_floor1": 0.0
+        }
+      },
+      "framework_atoms": 832,
+      "gas": "C2H6",
+      "name": "bne+C17+C37+L15_SH"
+    },
+    {
+      "checks": {
+        "axes": {
+          "max_absolute": 0.0,
+          "max_relative_floor1": 0.0
+        },
+        "grid": {
+          "max_absolute": 0.0,
+          "max_relative_floor1": 0.0
+        },
+        "marginal_K": {
+          "max_absolute": 0.0,
+          "max_relative_floor1": 0.0
+        },
+        "orientation_K": {
+          "max_absolute": 0.0,
+          "max_relative_floor1": 0.0
+        },
+        "site_K": {
+          "max_absolute": 0.0,
+          "max_relative_floor1": 0.0
+        }
+      },
+      "framework_atoms": 1100,
+      "gas": "C2H4",
+      "name": "bne+C17+C32+L46_NH2"
+    },
+    {
+      "checks": {
+        "axes": {
+          "max_absolute": 0.0,
+          "max_relative_floor1": 0.0
+        },
+        "grid": {
+          "max_absolute": 0.0,
+          "max_relative_floor1": 0.0
+        },
+        "marginal_K": {
+          "max_absolute": 0.0,
+          "max_relative_floor1": 0.0
+        },
+        "orientation_K": {
+          "max_absolute": 0.0,
+          "max_relative_floor1": 0.0
+        },
+        "site_K": {
+          "max_absolute": 0.0,
+          "max_relative_floor1": 0.0
+        }
+      },
+      "framework_atoms": 1100,
+      "gas": "C2H6",
+      "name": "bne+C17+C32+L46_NH2"
+    },
+    {
+      "checks": {
+        "axes": {
+          "max_absolute": 0.0,
+          "max_relative_floor1": 0.0
+        },
+        "grid": {
+          "max_absolute": 0.0,
+          "max_relative_floor1": 0.0
+        },
+        "marginal_K": {
+          "max_absolute": 0.0,
+          "max_relative_floor1": 0.0
+        },
+        "orientation_K": {
+          "max_absolute": 0.0,
+          "max_relative_floor1": 0.0
+        },
+        "site_K": {
+          "max_absolute": 0.0,
+          "max_relative_floor1": 0.0
+        }
+      },
+      "framework_atoms": 1580,
+      "gas": "C2H4",
+      "name": "bne+C17+C32+L60_CF3"
+    },
+    {
+      "checks": {
+        "axes": {
+          "max_absolute": 0.0,
+          "max_relative_floor1": 0.0
+        },
+        "grid": {
+          "max_absolute": 0.0,
+          "max_relative_floor1": 0.0
+        },
+        "marginal_K": {
+          "max_absolute": 0.0,
+          "max_relative_floor1": 0.0
+        },
+        "orientation_K": {
+          "max_absolute": 0.0,
+          "max_relative_floor1": 0.0
+        },
+        "site_K": {
+          "max_absolute": 0.0,
+          "max_relative_floor1": 0.0
+        }
+      },
+      "framework_atoms": 1580,
+      "gas": "C2H6",
+      "name": "bne+C17+C32+L60_CF3"
+    }
+  ],
+  "fullgrid_evidence": "/home/qiuyong/MOF-uni-MOF/diffusion/runs/cof8948_oldff_vext_native_probe_v4/result/report.json",
+  "gas_cases": 12,
+  "grid_size": 16,
+  "materials": 6,
+  "mode": "pilot",
+  "old_code_hashes": {
+    "cof8948_oldff_prepare.py": "4abab3a3b35527a5f7296f064c7fffc52f22ffa0446ad05957d2f28633ab13a0",
+    "cof8948_oldff_vext.py": "4e0967a305c600f8351a44387974b48fcda0c8c1a783e566d26013fcfb5eff91",
+    "orientation_oracle_fields.py": "d232fc730d158cb47343a8f5bcdfddb4ae8a41e83154e8f17ad0ef7d5a1726f5",
+    "rebuild_legacy_string_ff_vext.py": "198396d5f377e806e33e5ecd170777fb554d08e856b89c5b9dc9ef9f00b0d445",
+    "string_ff_vext.py": "573f937fac33a6df08723c22d6a428f4ef48535bfee7d6d380d32ab86a756bd1"
+  },
+  "orientations": 64,
+  "passed": true,
+  "source_manifest_sha256": "cb6a71e7158b329de232a900ebe6a21bd609f8f5828a5c3ee93a70f01811ab96"
+}

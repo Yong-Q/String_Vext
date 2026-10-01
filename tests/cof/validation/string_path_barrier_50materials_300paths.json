@@ -1,0 +1,25 @@
+{
+  "passed": true,
+  "materials": 50,
+  "paths": 300,
+  "source_manifest_sha256": "cb6a71e7158b329de232a900ebe6a21bd609f8f5828a5c3ee93a70f01811ab96",
+  "caveat": "archived BODY-X path geometries under corrected 92.8/108-K FF; not newly optimized paths",
+  "by_gas": {
+    "C2H4": {
+      "paths": 150,
+      "paths_peak_ge_2000K": 88,
+      "max_accessible_pose_abs_error_K": 1.7530510376673192e-10,
+      "max_raw_barrier_abs_error_K": 95.625,
+      "max_raw_barrier_relative_error_floor1": 4.1007888459031724e-13,
+      "max_capped_logD_abs_error_dex": 8.171241461241152e-14
+    },
+    "C2H6": {
+      "paths": 150,
+      "paths_peak_ge_2000K": 89,
+      "max_accessible_pose_abs_error_K": 3.00815372611396e-10,
+      "max_raw_barrier_abs_error_K": 2.73046875,
+      "max_raw_barrier_relative_error_floor1": 2.078010481197725e-13,
+      "max_capped_logD_abs_error_dex": 9.769962616701378e-14
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "cohort": "cof8948_oldff_v1",
+  "gases": {
+    "C2H4": {
+      "bond": 1.33,
+      "epsilon": 92.8,
+      "mass": 28.0,
+      "sigma": 3.68,
+      "site_mass": 14.0
+    },
+    "C2H6": {
+      "bond": 1.54,
+      "epsilon": 108.0,
+      "mass": 30.0,
+      "sigma": 3.76,
+      "site_mass": 15.0
+    }
+  },
+  "materials": 8948,
+  "max_angle_deviation_deg": 70.144,
+  "max_periodic_atom_error_A": 0.0,
+  "passed": true,
+  "policy": "original CIF/framework unchanged; BODYX guest FF only; source paths immutable",
+  "source_directory_sha256": "8c3b306da4fdb17e16926836205351b60f864d1760e077a6005bb7e1391a7d54",
+  "source_manifest_sha256": "b9a4d2e33229fc93e0b2260f4b3093155d6f617bab58c1beddc73198c34712c4",
+  "task_csv_sha256": "cb6a71e7158b329de232a900ebe6a21bd609f8f5828a5c3ee93a70f01811ab96",
+  "tasks": 53688,
+  "transformer_sha256": "4abab3a3b35527a5f7296f064c7fffc52f22ffa0446ad05957d2f28633ab13a0"
+}

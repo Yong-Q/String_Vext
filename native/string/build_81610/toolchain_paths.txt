@@ -1,0 +1,2 @@
+nvcc=/usr/local/cuda-13.3/bin/nvcc
+g++=/opt/gcc/13.1.0/bin/g++

@@ -1,0 +1,16 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+.mypy_cache/
+build/
+dist/
+*.egg-info/
+.venv/
+.local_unpublished/
+inputs/
+runs/
+logs/
+*.npz
+*.dat
+*.cif
+*.csv

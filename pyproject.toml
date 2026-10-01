@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "string-vext"
+version = "0.1.0"
+description = "Triclinic CUDA String paths and exact 64-orientation Vext fields"
+readme = "README.md"
+license = {file = "LICENSE"}
+requires-python = ">=3.9"
+authors = [{name = "qiuyong"}]
+dependencies = ["numpy>=1.23", "scipy>=1.9"]
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "Operating System :: POSIX :: Linux",
+]
+
+[project.scripts]
+string-vext = "string_vext.vext:main"
+string-path = "string_vext.string:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+string_vext = ["bin/*.so", "bin/string_triclinic_cuda"]
