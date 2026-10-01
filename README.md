@@ -84,6 +84,21 @@ never silently overwritten. Run separate String inputs for a/b/c directions.
 The optimized String path is a numerical candidate, **not a proof of the
 global minimum barrier**.
 
+### Shared GPU work queue
+
+`string_vext.shared_queue.SharedQueue` provides a durable task pool for
+independent one-GPU workers. A short global lock advances the queue cursor;
+each native calculation holds its own task lock until its result is recorded.
+Completed tasks are skipped on resume, abandoned claims can be reclaimed,
+and retries are bounded. Locks were checked across the original cluster's
+`gpu`/`gpu2` NFS4 mounts and with four competing local processes.
+
+The COF Slurm example under `tests/cof/slurm/` runs at most six one-GPU
+workers (four on `gpu`, two on `gpu2`). New workers wait on individual old
+GPU jobs rather than the entire old array, so freed cards can join the
+shared pool progressively. Actual Slurm startup latency is scheduler-
+dependent; the pool does not allocate GPUs itself.
+
 ## Small examples
 
 - [`examples/toy_triclinic/input.dat`](examples/toy_triclinic/input.dat) is a
@@ -125,6 +140,7 @@ not as a standalone dataset.
 
 ```text
 src/string_vext/    material-independent Python input, String, and Vext APIs
+                    plus an optional durable shared task queue
 native/string/      repaired triclinic CUDA String source and reference binary
 native/vext/        exact CPU neighbor-reuse source and shared library
 scripts/            portable build commands

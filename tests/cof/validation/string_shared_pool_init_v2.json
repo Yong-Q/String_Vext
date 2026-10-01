@@ -1,0 +1,27 @@
+{
+  "passed": true,
+  "manifest_sha256": "cb6a71e7158b329de232a900ebe6a21bd609f8f5828a5c3ee93a70f01811ab96",
+  "native_binding": {
+    "binary_sha256": "3ca7e5387e1c2444993de0b9e17b53c5ea40e3c623aa70469288d13f10610c53",
+    "build_sha256": "920d85a3e0f12f26f3b046a72efff781b563420016e9e46e1031e120018a0390",
+    "source_manifest_sha256": "eea4ccf07d7b2d44a0e34b1c4d240fa31dfb40d7a5367fd5d7f19b28d9d573b6"
+  },
+  "code_binding": {
+    "cof8948_string_shared_v2.py": "4bb0d2e0a7f188c93219d9ba144108077de732efbeabc60ac80596ed1f141a76",
+    "string_shared_queue.py": "a8a6076b0ac7b0a6c2c2d8fc76fd3acfaadf1df29f08bea9a205b850e4c01777",
+    "cof8948_string_runner.py": "09c4d5470baa18f5417d0e5a6d03ab21b3e29972f2448a8a4ee2bd69242dafb2",
+    "legacy8238_runner_v7.py": "a85db616912b5f56109693146e51141964070385af3a262625819deadd78d644"
+  },
+  "task_count": 53688,
+  "seeded_completed": 7,
+  "pilot_result_ids": [
+    "00008b2753a978f9edbcdafcd86b16141cf98ffce0a57fd9208c1917863e7c2a",
+    "6ee5cc54fad53bd90f334080c51c3502b4fd2192cd7e59a52007d4316908bab8",
+    "795b5f15c831c5190fa647445c8cdf3a04f53236b0bf8208fb204187a5c8d731",
+    "7d7c2ac7dd452a6d863b9fe62ebe54e1e68d4efe7ca9b04fbe0c224ae7a51856",
+    "9911a17a779d0fe1d750138748ec852a32d68df8eb2ae04acc7b734904aef7fd",
+    "9fef22cf5a00ba98e121bb3fa49e7288c4a6a1756161b4c009804c69675ed073",
+    "faefb77af5004ea10a81258e3fa2495b2450fbaef8a5749cfc2fe9cc11f29ee3"
+  ],
+  "pool": "/home/qiuyong/MOF-uni-MOF/diffusion/runs/cof8948_string_oldff_v1/shared_pool_v2"
+}

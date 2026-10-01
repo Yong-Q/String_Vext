@@ -1,0 +1,61 @@
+{
+  "passed": true,
+  "manifest_sha256": "cb6a71e7158b329de232a900ebe6a21bd609f8f5828a5c3ee93a70f01811ab96",
+  "native_binding": {
+    "binary_sha256": "3ca7e5387e1c2444993de0b9e17b53c5ea40e3c623aa70469288d13f10610c53",
+    "build_sha256": "920d85a3e0f12f26f3b046a72efff781b563420016e9e46e1031e120018a0390",
+    "source_manifest_sha256": "eea4ccf07d7b2d44a0e34b1c4d240fa31dfb40d7a5367fd5d7f19b28d9d573b6"
+  },
+  "code_binding": {
+    "cof8948_string_shared_v2.py": "4bb0d2e0a7f188c93219d9ba144108077de732efbeabc60ac80596ed1f141a76",
+    "string_shared_queue.py": "a8a6076b0ac7b0a6c2c2d8fc76fd3acfaadf1df29f08bea9a205b850e4c01777",
+    "cof8948_string_runner.py": "09c4d5470baa18f5417d0e5a6d03ab21b3e29972f2448a8a4ee2bd69242dafb2",
+    "legacy8238_runner_v7.py": "a85db616912b5f56109693146e51141964070385af3a262625819deadd78d644"
+  },
+  "original_pilot_sha256": "9f5e4dadf5f40ef05567b29831880b1800807066afdeb4f36f173f62102e0a2a",
+  "reserve_MiB": 1024,
+  "sampled_increment_MiB": 558.0,
+  "budget_MiB": 1255,
+  "result": {
+    "task_id": "00008b2753a978f9edbcdafcd86b16141cf98ffce0a57fd9208c1917863e7c2a",
+    "name": "tfz+C70+C18+L42_Cl",
+    "gas": "C2H6",
+    "direction": 2,
+    "guest_sigma_A": 3.76,
+    "guest_epsilon_K": 108.0,
+    "guest_bond_A": 1.54,
+    "guest_mass_g_mol": 30.0,
+    "status": "completed_with_review",
+    "warnings": "initial_candidate_convergence_not_certified",
+    "attempt_path": "/home/qiuyong/MOF-uni-MOF/diffusion/runs/cof8948_string_oldff_v1/shared_pilot_v2/00008b2753a978f9edbcdafcd86b16141cf98ffce0a57fd9208c1917863e7c2a",
+    "job_id": "81779",
+    "gpu_uuid": "GPU-b3bf5be4-fe5f-6cda-75b6-23a3f9d998e1",
+    "seed_sha256": "2fe6cd0466f479b5b97312bffe1f317811cca401169a7e1d1027792f50427e6e",
+    "warm_started": true,
+    "D_m2_s": 5.138396879130767e-09,
+    "logD": -8.289172354768029,
+    "uncapped_logD": -8.28917235476803,
+    "barrier_K": 1619.8805498033855,
+    "peak_K": -773.9216867485354,
+    "capped": false,
+    "stage": "initial",
+    "final_converged": true,
+    "optimizer_iterations": 600,
+    "framework_atoms": 279,
+    "CPU_energy_checked_points": 401,
+    "CPU_energy_max_abs_error_K": 3.637978807091713e-12,
+    "path_sha256": "8919411f744230274ca33f289de1ca57a6fa2abd12bf5fdb2c016752b0424e11",
+    "path_qc": {
+      "arc_length_A": 87.20756740903842,
+      "hop_length_A": 61.197,
+      "arc_to_hop_ratio": 1.425030106198644,
+      "max_segment_A": 0.21820368984602603,
+      "max_segment_to_mean": 1.0008475013300775,
+      "endpoint_winding_error": 0.0,
+      "winding_a": 0.0,
+      "winding_b": 1.0,
+      "winding_c": 0.0
+    }
+  },
+  "queue_contract": "one locked claim; second worker blocked; finished marker durable"
+}
