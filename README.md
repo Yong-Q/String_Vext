@@ -59,6 +59,11 @@ See `native/string/source_code/` and `native/vext/kernel.cpp` for the two
 physical kernels. The compiled String binary requires a compatible CUDA
 runtime and cuFFT at execution time.
 
+The GitHub Release workflow builds a wheel and tagged source archive from
+the included reference binaries. **It does not recompile CUDA String or run
+GPU tests on GitHub.** Native recompilation still needs the toolchain above;
+other GPU architectures need a matching `CUDA_ARCH`.
+
 ## Run
 
 ```bash
@@ -78,6 +83,18 @@ the separate native TST utility. Outputs are created exclusively and are
 never silently overwritten. Run separate String inputs for a/b/c directions.
 The optimized String path is a numerical candidate, **not a proof of the
 global minimum barrier**.
+
+## Small examples
+
+- [`examples/toy_triclinic/input.dat`](examples/toy_triclinic/input.dat) is a
+  one-atom parser/Vext smoke input, not a physical diffusion benchmark.
+- [`tests/cof/examples/c2h4/input.dat`](tests/cof/examples/c2h4/input.dat)
+  and [`tests/cof/examples/c2h6/input.dat`](tests/cof/examples/c2h6/input.dat)
+  are two small nonorthogonal GPU-pilot inputs with corrected guest LJ
+  parameters; both have gamma = 119.993 degrees.
+
+These are the **only three tracked input files**. The 53,688 production
+inputs and all CIF, trajectory, Vext, and diffusion datasets are excluded.
 
 ## Validation
 
@@ -118,6 +135,7 @@ native/vext/        exact CPU neighbor-reuse source and shared library
 scripts/            portable build commands
 tests/unit/         synthetic, data-free nonorthogonal tests
 tests/cof/          COF-only validation reports and original batch snapshot
+examples/           one small synthetic triclinic input
 ```
 
 Author and maintainer: **qiuyong**. See [NOTICE](NOTICE) and [LICENSE](LICENSE).

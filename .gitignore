@@ -12,5 +12,7 @@ runs/
 logs/
 *.npz
 *.dat
+!examples/**/input.dat
+!tests/cof/examples/**/input.dat
 *.cif
 *.csv

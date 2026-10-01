@@ -22,8 +22,13 @@ input-to-NPZ timings were 25.3x and 23.1x faster than the old CPU DIRECT path.
 The attached wheel bundles reference binaries for Linux x86-64. The String
 binary targets `sm_89`, needs a compatible CUDA runtime/cuFFT, and requires
 glibc >=2.38. Rebuild from source for other GPUs or older systems. The CPU
-Vext reference binary is also included. Vext currently supports neutral,
+Vext reference binary is also included. GitHub Actions packages the
+reference binaries; it does not compile CUDA String or run GPU tests. Vext
+currently supports neutral,
 symmetric two-site LJ guests; it is not a general charged/multisite model.
+
+Only three small `input.dat` examples are included. No production CIF,
+input, trajectory, Vext, or diffusion dataset is part of the release.
 
 License: PolyForm Noncommercial 1.0.0. Commercial use is not permitted without
 separate written permission from qiuyong.
