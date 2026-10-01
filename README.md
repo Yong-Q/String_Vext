@@ -93,15 +93,10 @@ global minimum barrier**.
   are two small nonorthogonal GPU-pilot inputs with corrected guest LJ
   parameters; both have gamma = 119.993 degrees.
 
-These are the **only three tracked input files**. The 53,688 production
-inputs and all CIF, trajectory, Vext, and diffusion datasets are excluded.
-
 ## Validation
 
 The COF work is a **test case**, not the software scope. Its scripts, source
-snapshot, and small reports live under [`tests/cof/`](tests/cof/). No CIF
-dataset, 53,688 batch inputs, String trajectories, or Vext NPZ results are
-bundled.
+snapshot, and small reports live under [`tests/cof/`](tests/cof/).
 
 - A synthetic nonorthogonal-cell unit test exercises the public Vext API.
 - Fifty COF materials (100 gas fields) were compared over full 60^3 x 64

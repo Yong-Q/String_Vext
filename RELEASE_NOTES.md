@@ -27,8 +27,5 @@ reference binaries; it does not compile CUDA String or run GPU tests. Vext
 currently supports neutral,
 symmetric two-site LJ guests; it is not a general charged/multisite model.
 
-Only three small `input.dat` examples are included. No production CIF,
-input, trajectory, Vext, or diffusion dataset is part of the release.
-
 License: PolyForm Noncommercial 1.0.0. Commercial use is not permitted without
 separate written permission from qiuyong.
